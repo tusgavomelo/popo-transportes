@@ -21,10 +21,13 @@
 			</section>
 			<section class="main-contact-bar-fullscreen contact-bar">
 				<div class="main-contact-msg">
-					<p>Entre em contato conosco e tire suas dúvidas, <b>clique aqui!</b></p>
+					<p>Clique aqui para entrar em contato conosco e tirar suas dúvidas!</p>
 				</div>
 			</section>
 			<section class="main-content auto-margin-container min-resolution">
+				<h2 class="main-content-title">Seja bem-vindo</h2>
+				<h1 class="main-content-byline">ao nosso website</h1>
+				<hr class="separator"/>
 			</section>
 			<footer class="main-footer">
 				<?php 
