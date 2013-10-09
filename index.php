@@ -16,14 +16,20 @@
 					include 'header.html';
 				?>
 			</section>
+			<section class="main-banner-fullscreen banner">
+				
+			</section>
+			<section class="main-contact-bar-fullscreen contact-bar">
+				<div class="main-contact-msg">
+					<p>Entre em contato conosco e tire suas dúvidas, <b>clique aqui!</b></p>
+				</div>
+			</section>
 			<section class="main-content auto-margin-container min-resolution">
 			</section>
 			<footer class="main-footer">
-				
-					<?php 
-						include 'footer.html';
-					?>
-
+				<?php 
+					include 'footer.html';
+				?>
 			</footer>
 		</section>
 	</body>
