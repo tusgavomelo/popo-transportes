@@ -96,7 +96,7 @@
 
 .main-contact-bar-fullscreen{
 	width: 100%;
-	height: 50px;
+	height: 30px;
 	transition: background 0.5s;
 	transition: gradient 0.5s;
 	transition: linear-gradient 0.5s;
@@ -132,7 +132,7 @@
 
 .main-contact-msg{
 	margin: 0 auto;
-	line-height: 50px;
+	line-height: 30px;
 	display: block;
 	width: 460px;
 
