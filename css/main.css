@@ -91,7 +91,29 @@
 .main-banner-fullscreen{
 	width: 100%;
 	height: 250px;
-	background-image: url("../images/banner.jpg");
+}
+
+.main-container-box-title{
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 2px;
+	margin: 0 auto;
+	width: 295px;
+	position: relative;
+}
+
+.msg-title{
+	font-size: 30px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.msg-subtitle{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+	color: #ffffff;
+	text-shadow: black 2px 2px 2px;
+	font-family: 'Lobster', cursive;
 }
 
 .main-contact-bar-fullscreen{
@@ -103,30 +125,15 @@
 }
 
 .contact-bar{
-	background: rgb(237,245,249); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(237,245,249,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,245,249,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(237,245,249,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(237,245,249,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(237,245,249,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(237,245,249,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5f9', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-	
-	border: 1px solid #bbb;
+	background-color: #DFFF7F;
+	border: 1px solid #61C419;
 	cursor: pointer;
 
 }
 
 .contact-bar:hover{
-	background: rgb(252,255,244); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
-	border: 1px solid #bbb;
+	background-color: #5BE540;
+	border: 1px solid #DFFF7F;
 	cursor: pointer;
 }
 
@@ -166,10 +173,29 @@
 	
 }
 
+.text-content{
+	margin-top: 30px;
+	line-height: 30px;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
 
+.area-form{
+	border: 1px solid #CCCCCC;
+	padding: 20px;
+	border-radius: 2px;
+}
+
+.contact-info{
+	float: right;
+	line-height: 25px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
 
 .form-line{
 	clear:both;
+	line-height: 30px;
 }
 
 .form .text-field{
@@ -187,22 +213,31 @@
     line-height: 1;
     padding: 6px 10px;
     cursor:pointer;
-    color: #fff;
+    color: #000000;
     text-align: center;
-    background: #181818;
-    border: 0;
+    background: rgb(252,255,244); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(252,255,244,1) 0%, rgba(233,233,206,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,255,244,1)), color-stop(100%,rgba(233,233,206,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e9e9ce',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #cccccc;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
+	transition: background 1s;
 }
 
 .form .submit:hover{
-	background: #D9363A;
+	background: #e9e9ce;
 }
 
-.section-title{
-	padding-top: 50px;
+.main-footer{
+	margin-top: 50px;
 }
+
 
 .contact-us {
 	padding-top: 40px;

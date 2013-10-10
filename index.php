@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/structure.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<section class="main-container">
@@ -16,8 +17,11 @@
 					include 'header.html';
 				?>
 			</section>
-			<section class="main-banner-fullscreen banner">
-				
+			<section class="main-banner-fullscreen banner" style="background-image: url('images/banner.jpg'); padding: 20px;">
+				<div class="main-container-box-title">
+					<p class="msg-title">Título da mensagem</p>	
+				</div>
+					<p class="msg-subtitle">Slogan teste letras gustavo</p>
 			</section>
 			<section class="main-contact-bar-fullscreen contact-bar">
 				<div class="main-contact-msg">
